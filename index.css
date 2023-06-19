@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 50px;
+    font-size: 48px;
+    padding: 30px;
+    background-color: #f50ea8;
+    margin: 0;
+  }
+  
+  .courses {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .course {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .course.cloud {
+    background-color: #ffc107;
+  }
+  
+  .course.ai {
+    background-color: #4caf50;
+  }
+  
+  .course.full-stack {
+    background-color: #2196f3;
+  }
+  
+  .course.testing {
+    background-color: #f44336;
+  }
+  
+  .course.programming {
+    background-color: #9c27b0;
+  }
+  
+  .course.sap {
+    background-color: #e91e63;
+  }
+  
+  .course.data-science {
+    background-color: #607d8b;
+  }
+  
+  .course-heading {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .course-description {
+    color: #fff;
+    margin-top: 5px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .round-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .round-arrow:hover {
+    background-color: #1eb44b;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #ca1d1d;
+    border-right: 2px solid #972626;
+    transform: rotate(45deg);
+  }
+  
+ 
+  
